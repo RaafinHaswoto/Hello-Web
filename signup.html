@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <nav>
+        <a href="./index.html">Home</a> |
+        <a href="./signup.html">Sign Up</a> |
+        <a href="./blog.html">Blog</a> |
+        <a href="./aboutme.html">About Me</a>
+    </nav>
+    </br>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>
+                <label for="gender">Title :</label>
+                <input id="male-radio" type="radio" name="gender" value="Male">
+                <label for="male-radio">Mr</label>
+                <input id="Madam-radio" type="radio" name="gender" value="Madam">
+                <label for="Madam-radio">Mrs</label>
+                <input id="female-radio" type="radio" name="gender" value="Femalee">
+                <label for="female-radio">Ms</label>
+            </p>
+            <p>
+                <label for="first-name">Full Name</label>
+                <input id="first-name" name="firstName" type="text">
+            </p>
+            <p>
+                <label for="last-name">Last Name</label>
+                <input id="last-name" name="lastName" type="text">
+            </p>
+            <p>
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email">
+            </p>
+            <p>
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone" type="tel">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+            </p>
+            <p>
+                <label for="password">Confirm Password</label>
+                <input id="password" name="password" type="password">
+            </p>
+            <p>
+                <label for="country">Country</label>
+                <input type="text" name="country" list="country" />
+                <datalist id="country">
+                    <select name="country">
+                        <option value="Canada">Canada</option>
+                        <option value="USA">USA</option>
+                        <option value="Germany">Germany</option>
+                        <option value="England">England</option>
+                    </select>
+                </datalist>
+            </p>
+            <p>
+                <input type="checkbox" name="checkbox"> I agree to
+                <a href="https://www.google.com/">the terms and conditions</a>
+            </p>
+            <p>
+                <input type="button" name="button" value="Sign Up">
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
